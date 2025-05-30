@@ -29,7 +29,7 @@ A modern, responsive Todo List application built with React, Vite, and TailwindC
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/percybunag/bunag-todo-list.git
+   git clone https://github.com/percybunag/To-Do-List-App.git
    cd bunag-todo-list
    ```
 
@@ -43,10 +43,7 @@ A modern, responsive Todo List application built with React, Vite, and TailwindC
    npm run dev
    ```
 
-4. **Open your browser**
-   ```
-   Navigate to http://localhost:5173
-   ```
+
 
 ## 📖 How to Use
 
@@ -114,21 +111,6 @@ src/
 - **Smooth Animations**: CSS transitions and custom keyframes
 - **Responsive Design**: Mobile-first approach with TailwindCSS
 
-## 🔧 Available Scripts
-
-```bash
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-
-# Run linter
-npm run lint
-```
 
 ## 📁 Project Structure
 
