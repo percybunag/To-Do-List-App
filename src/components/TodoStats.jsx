@@ -5,11 +5,11 @@ function TodoStats({ todos, theme }) {
 
   return (
     <div 
-      className="mt-6 pt-4 text-center"
+      className="mt-4 sm:mt-6 pt-3 sm:pt-4 text-center"
       style={{ borderTop: `1px solid ${theme.border}` }}
     >
       <p 
-        className="text-sm"
+        className="text-xs sm:text-sm"
         style={{ color: theme.textSecondary }}
       >
         {remainingTasks === 0 

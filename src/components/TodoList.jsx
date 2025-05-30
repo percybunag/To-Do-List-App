@@ -77,11 +77,11 @@ function TodoList() {
 
   return (
     <div 
-      className="min-h-screen flex flex-col items-center justify-center p-4 transition-all duration-300"
+      className="min-h-screen flex flex-col items-center justify-center p-3 sm:p-4 transition-all duration-300"
       style={{ backgroundColor: theme.background }}
     >
       <div 
-        className="w-full max-w-md rounded-xl shadow-xl p-6 transition-all duration-300"
+        className="w-full max-w-sm sm:max-w-md rounded-xl shadow-xl p-4 sm:p-6 transition-all duration-300"
         style={{ backgroundColor: theme.cardBg }}
       >
         <Header 
@@ -97,7 +97,7 @@ function TodoList() {
           theme={theme}
         />
 
-        <div className="space-y-3">
+        <div className="space-y-2 sm:space-y-3">
           {todos.map((todo) => (
             <TodoItem
               key={todo.id}
